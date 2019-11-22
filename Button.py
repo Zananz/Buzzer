@@ -8,7 +8,7 @@ import simpleaudio as sa
 
 Button= Button(2)
 
-
+# load sound file first
 wave_obj = sa.WaveObject.from_wave_file("/home/pi/Dokumente/Python/Button.wav")
 
 
